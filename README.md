@@ -9,10 +9,10 @@ VIPERKernel is an algorithm that builds on CellRank (Weiler et al., 2024) to com
 
 This protein velocity algorithm assumes that undifferentiated populations are differentiating, with the MRs defining populations increasing as they become more differentiated and stable in their cell states. However, this assumption may not hold true in cases where normal or cancer populations change from one clearly defined differentiated state into another differentiated state.
 
-Requirements:
+##Dependencies:
+- cellrank
+- tqdm
+- numpy
 
-• cellrank
-
-• tqdm
-
-• numpy
+##References:
+Weiler, P., Lange, M., Klein, M., Pe’er, D., & Theis, F. (2024). CellRank 2: unified fate mapping in multiview single-cell data. Nature Methods, 1-10.
